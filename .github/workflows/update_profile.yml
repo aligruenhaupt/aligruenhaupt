@@ -1,0 +1,29 @@
+name: Generate Profile SVG
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Läuft täglich um 00:00 Uhr UTC
+  workflow_dispatch:    # Erlaubt dir, die Action jederzeit manuell zu starten
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python installieren
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Python Skript ausführen
+        run: python scripts/generate_svg.py
+
+      - name: Generierte SVG committen und pushen
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile_art.svg
+          git commit -m "chore: update profile SVG art" || exit 0
+          git push
