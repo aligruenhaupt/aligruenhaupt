@@ -27,12 +27,3 @@ deep into data management: currently working at Westnetz GmbH.
 Native iOS application published on the App Store. Full lifecycle<br>
 development from initial concept to live deployment.
 
-<img src="./hd-stats.svg" width="620" alt="stats"/>
-
-<div align="center">
-
-<!-- Platzhalter für weitere Statistik-SVGs -->
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
-
-</div>
