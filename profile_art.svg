@@ -1,0 +1,86 @@
+<svg width="800" height="756" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .ascii-line {
+            font-family: 'Courier New', monospace;
+            font-size: 10px;
+            fill: #c9d1d9; /* Helles GitHub-Grau */
+            white-space: pre;
+            opacity: 0;
+            animation: fadeIn 0.1s forwards;
+        }
+        .status {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            fill: #58a6ff; /* GitHub-Blau */
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            animation-delay: 2.24s; /* Erscheint ganz am Schluss */
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+    </style>
+    
+    <!-- Transparenter oder dunkler Hintergrund -->
+    <rect width="100%" height="100%" fill="#0d1117" rx="10" />
+    
+    <text x="10" y="20" class="ascii-line" style="animation-delay: 0.0s;">                                         @ +             % %#.@@+@@ =</text>
+<text x="10" y="32" class="ascii-line" style="animation-delay: 0.03s;">                                    @@@@@@+@-@@@@- @@@@  -@@@   + @@@ @@</text>
+<text x="10" y="44" class="ascii-line" style="animation-delay: 0.06s;">                              @@@@@@@@@%@%: -@@@ @*+@  @@@   @    @ @@=+@</text>
+<text x="10" y="56" class="ascii-line" style="animation-delay: 0.09s;">                           @@@@@%+@%%@@@@@@@@   @. @@@@#=:.-@:@+@+@%   @@@</text>
+<text x="10" y="68" class="ascii-line" style="animation-delay: 0.12s;">                         @@@#@@@@*@@-=.=   :=.@@ @@@@*%.@-@@@ @     @@@= .@@@</text>
+<text x="10" y="80" class="ascii-line" style="animation-delay: 0.15s;">                     @@@@@+%@-#=@%-+#%@@#@@#@:@ @@#@@@.@.@@@  @ @@@    -*@*@* @</text>
+<text x="10" y="92" class="ascii-line" style="animation-delay: 0.18s;">                  @@ @:@*%@@ %@%#=@@@@@*.@*%*:.@#-=:@#-*:=@*@@@%%%@@@@@@ *-@ @ @</text>
+<text x="10" y="104" class="ascii-line" style="animation-delay: 0.21s;">                @@@ +@@*@*+@+@-=+@=@@-@* @%-@@@#*#@@@  .@@@=#=*%@ * =  @@@@@@+@</text>
+<text x="10" y="116" class="ascii-line" style="animation-delay: 0.24s;">               @@*%#@@=@ @=.*@-@@@*-..  #@=@@@@@%@@.@ :@@@@%:@@@@#@+##@ -@@-@ @ @</text>
+<text x="10" y="128" class="ascii-line" style="animation-delay: 0.27s;">              @@+@%+@   @=.@#-%#.@ @ +@-@-%@@=%#@%@  :.#@@@@%=@@@*@@@@@@@@#@++</text>
+<text x="10" y="140" class="ascii-line" style="animation-delay: 0.3s;">             @@@@@-@*@ @:@ @@@##+@@@ @#.@ @ @@%*#+=@#@    @%@@ :=:+*@@@@@@@#@ *  @</text>
+<text x="10" y="152" class="ascii-line" style="animation-delay: 0.32999999999999996s;">            @@:@@%=@-@*@:%@@-% @%@+@#@%.*@.#%%@@@+@@%%%@- @@:@@*@@#@@@=.. @ @@% @=</text>
+<text x="10" y="164" class="ascii-line" style="animation-delay: 0.36s;">            @#%+#@:#=@.@ @%*%-@@@@-@*.@:%@%@%-@+@@@@** *-=-@@@@@@@@@@:.   @@*@@@@@</text>
+<text x="10" y="176" class="ascii-line" style="animation-delay: 0.39s;">            @@*@#@*+@*@###:@#%@=%##*#@@:@#@@-%@+*@@@*@@@@@=.+@@@@@@        @-#@@@@</text>
+<text x="10" y="188" class="ascii-line" style="animation-delay: 0.42s;">           @@#+#@@@-+*=%@@%@=%=-@###*@@+@#%@@@*@#*:*#%@@@:-+..     .--.    @@..*#</text>
+<text x="10" y="200" class="ascii-line" style="animation-delay: 0.44999999999999996s;">           @#@@=%#*@#@-=@*#@=%@%@@=@@%@*@#@#@#@#%@@@@@@#@+.. .:.:.         +@ *#@</text>
+<text x="10" y="212" class="ascii-line" style="animation-delay: 0.48s;">           @@%@@=%*@+@@+@%@@#@#@@@@=@@@%@@@%%@%@@@@@-    .-:::-:...         @@-@</text>
+<text x="10" y="224" class="ascii-line" style="animation-delay: 0.51s;">           @**@@.%@@@%%*@@%@%@@@@%@@%@@@@#@@@@@@#.  ...-::....      ...      @@</text>
+<text x="10" y="236" class="ascii-line" style="animation-delay: 0.54s;">           @@*#@+#@#@*%*@#@%@%@%@@*@@#%@%@@@@#.  ..:::.    . *.          :.</text>
+<text x="10" y="248" class="ascii-line" style="animation-delay: 0.57s;">            @%=@%@#%%@@+@%@*@%@*%%#%%%%@@@=.  ..:...   @@@@@@@%@@@@@@@@@@  @@+@</text>
+<text x="10" y="260" class="ascii-line" style="animation-delay: 0.6s;">            @*##+*%%%@@%@%@%+@#%@#%@@@@@*   ..:..   @@@@+... ....==%@%@-   @@@@</text>
+<text x="10" y="272" class="ascii-line" style="animation-delay: 0.63s;">            @##=@+@%@@@#@%@@*@%##%#%=**+  ......-=@*:. ..@%-@@@@@@@++-..   @ =</text>
+<text x="10" y="284" class="ascii-line" style="animation-delay: 0.6599999999999999s;">            @@@*@%@@@@@%=@@@@%%@%%@#+*%@ .....::.::--#*+@@=    +%@..=+**:.  %@</text>
+<text x="10" y="296" class="ascii-line" style="animation-delay: 0.69s;">             @@#@*#@ .%==  .%@@@@---- # -.........  .::.:-#%@@@@@@#%@#-=-::   @</text>
+<text x="10" y="308" class="ascii-line" style="animation-delay: 0.72s;">             @=%%@@ #+.  *@:.  ..-@.-.: ..: ......:.:-=:--=-==-..  =   ...:-:</text>
+<text x="10" y="320" class="ascii-line" style="animation-delay: 0.75s;">             @@@+@@ @. ..    =:. . : :.  .............--==-:.. .-:   ... ..::.  @</text>
+<text x="10" y="332" class="ascii-line" style="animation-delay: 0.78s;">              @@@@@ %# .  @@@.=:.  :.=-.. .............              .......  .  @</text>
+<text x="10" y="344" class="ascii-line" style="animation-delay: 0.8099999999999999s;">               @%*@ =  *@#: :=@   *= :... ..........  ..              *=*:. .     @</text>
+<text x="10" y="356" class="ascii-line" style="animation-delay: 0.84s;">               @%@@@  .%:  .:@  .   .. +.:..  ... ..    .-:..        #@.</text>
+<text x="10" y="368" class="ascii-line" style="animation-delay: 0.87s;">               @@@%@   :+  . +.-:  -%::= +...........:.: .   .:. .   @#. .. ..-+*+#</text>
+<text x="10" y="380" class="ascii-line" style="animation-delay: 0.8999999999999999s;">                @@@@@ .-:. .+@@. : -...:...- .... ..........:. .     #@%@@@@@@@@@@@</text>
+<text x="10" y="392" class="ascii-line" style="animation-delay: 0.9299999999999999s;">                  @@@@  . .::..*-..--=.*.=.=*-=.....::::..........   .. . -+=@.+</text>
+<text x="10" y="404" class="ascii-line" style="animation-delay: 0.96s;">                   @@@@:         ...*=-::-:--*==::  . ...:.: ..  ...   ..-@@%@@@@</text>
+<text x="10" y="416" class="ascii-line" style="animation-delay: 0.99s;">                     @@@@=%%==-=*%.-.:+:+=:**-.*-.@#- .... ..=...      *.+@@@%. @</text>
+<text x="10" y="428" class="ascii-line" style="animation-delay: 1.02s;">                      @@=..  --+== =.+. #--.%-*=:+%.-#-+.......:.== #@@-#@:-@@@=@</text>
+<text x="10" y="440" class="ascii-line" style="animation-delay: 1.05s;">                       @*.....-::-.=:@*.=+*-*+:@-::-@#@:@@=-.:.:+ @%@@@@@%:.    @</text>
+<text x="10" y="452" class="ascii-line" style="animation-delay: 1.08s;">                        @..:...::-.=*+*@+ %+-..:#=-#::=-*.%+ %..@@@@#......---@.</text>
+<text x="10" y="464" class="ascii-line" style="animation-delay: 1.1099999999999999s;">                        @-.......:--@= #::- -*:@-.@+.--+-:-:-:::*=.  ....-#@@%@*@@@@@@@@</text>
+<text x="10" y="476" class="ascii-line" style="animation-delay: 1.14s;">                         %.....:.::.@*%=.**%-%..@%-%#%@#+%::%.-===.. .:---%@@%*@@@%+-. #@@@@@@@</text>
+<text x="10" y="488" class="ascii-line" style="animation-delay: 1.17s;">                         @...-....::-@%=##@#.-*+#=%*+@:-%*.@*:##-=.***-:--  -%    #*=*#%#+**==%@@@@@@@@</text>
+<text x="10" y="500" class="ascii-line" style="animation-delay: 1.2s;">                        @@ ....:...:.@@@*#@##%@*%=%--+%@.:@%-%%=-*%==-*.   -..:=- =%+*+#*##***+#%%@@. =@@@@</text>
+<text x="10" y="512" class="ascii-line" style="animation-delay: 1.23s;">                     @@@@@ .:-:-:::.::.@@@#*#*%#%##@@@%#%@*+%:%@=*:@* .-=*  :  *#--% +#%*#+**++++##@#*.*%=*@@@@@</text>
+<text x="10" y="524" class="ascii-line" style="animation-delay: 1.26s;">                   @@@=%@+ ..:.::....:::-@@@@#@*%*%*+#*@*@=##@@@##%%-:-*+@*+@%@+ *##*=**@###+*++***@@*+-++@-**+*@-</text>
+<text x="10" y="536" class="ascii-line" style="animation-delay: 1.29s;">                 @@@%%%@%@  ...::.:..:--=..:@@@@@@@@@%#%@@@@%#@@%@*=%@#+@@@@%*-:@@:.+**##%*%*=++*#*#@##=.#*#+*+++.</text>
+<text x="10" y="548" class="ascii-line" style="animation-delay: 1.3199999999999998s;">                @@#@@@@%#@ .....::.....:-=*:::-=%@@@@@@@@@#@@@%@@%@#@@@@@##@%%@@@@@*:+=*#@%@*+#=+**#@@@+-+*#*#*%*</text>
+<text x="10" y="560" class="ascii-line" style="animation-delay: 1.3499999999999999s;">      @@@@@@@@@@@@##@%%%@@. ....::-::..:.:---=-:--:.#@@@@@@@#@+@@@@@@@@%@@@@%%@%@@@%*-%*%@@%%**++*#*@@@*==*%#**+*.</text>
+<text x="10" y="572" class="ascii-line" style="animation-delay: 1.38s;">  @@@@%*#%@@@@@%@%@#%@%@#@@  .:::.:--::::..-:::+===--..:+@@@@@@@@@@@@@@@@@@@@%#@@@@@%+:+@@@##***+*+#@@@@*==*%####.</text>
+<text x="10" y="584" class="ascii-line" style="animation-delay: 1.41s;"> @@@@@@@#+-+@@@%%%%%#%%%%%@@....:::::==-::.::.-:.==****==#*@@@@@@@@@@@@@@+++*#%@@@@@@@*.-@%#%***==+#@@@@*+-*%%*#*.</text>
+<text x="10" y="596" class="ascii-line" style="animation-delay: 1.44s;">@@#%%@%%%@@%*+@@%%%@%%#@%%%@@......::=:.::..::::-==+=+##@%.  @@.@@=..#@@%#****%%%@@@@@@*- @%%%@@*=+*@@@@@#+=*%%%#=</text>
+<text x="10" y="608" class="ascii-line" style="animation-delay: 1.47s;">#%@#%%%#%%%%@##*@@#%%%#@%@@%@@.....:::-:..::.::::::-=+*+=:..@@@.@@@%=.@@@@@%*###%@%%@@@@#* @@@@%@*+=%@%@@%+++#%%@*</text>
+<text x="10" y="620" class="ascii-line" style="animation-delay: 1.5s;">.=++*+*%%%%%%%%%##@@%%%@%@@@@@@..::...::--:::::---:====:::=#@%%.@@@#*- @@@@@#*#%#%@@@@@@@*= @@@@@@%*@@@@@@++%%#%%+</text>
+<text x="10" y="632" class="ascii-line" style="animation-delay: 1.53s;">:##**++++#%%#%#%@#%@@%%@##@%@@%@ ..=-..::.:-......--=:::-*-@@%@.@@@@**.@@@@@%%*%#%%%@@@@@@%=.@@@@@@#@%@@@@%=*@%@%*</text>
+<text x="10" y="644" class="ascii-line" style="animation-delay: 1.56s;">.++##%%%#****%##%#%#@@%%@@%%%@@@@@ .:=:-:.:.::::::::=:--..=@%@%:@@@@%#* @@@@@@@%%##%@@@@@@@%=. @@@@@@%@@@@@=+#%%++</text>
+<text x="10" y="656" class="ascii-line" style="animation-delay: 1.5899999999999999s;">+%*##%#%@%%%##%#%%%%%@@%%%@%%@@@@@@@...-=-:.::.....--:...@@@@%##@@@@#*@-#@@@@@%%%%%%@%@@@@@@%%= @@@@@%@@@@@%+%@@@*</text>
+<text x="10" y="668" class="ascii-line" style="animation-delay: 1.6199999999999999s;">=*%#*#%%%#%####%###%#%@@%%@@%#*#@@@@@@ .  .:.:....... .@@@@@%@#%@%@@@*++ @@@@@@%%%%%%%@%@%@@%##* @@@@@%%@@%%+%@%%%</text>
+<text x="10" y="680" class="ascii-line" style="animation-delay: 1.65s;">=@%%###%%%%%@@%%@%%@%%@@@%%%%@@#@@@@@@@@@@% ..   -@@@@@@@@%@@#=#@@@@@@##= @@@@@@@@%%@%@@%@@@@@##=.@@@#@@@@@@%%@@@%</text>
+<text x="10" y="692" class="ascii-line" style="animation-delay: 1.68s;">=#%%*%*%%%%%%%#@%%%%%##@@%%%%#%@%#%%@@@@@@@@@@@@@@%@#@@%%@%@#++%@%@@@@**#.@@@%@@%%%%%%%%%@%@#%@#*=:@@@@@@@@#%%@@%#</text>
+<text x="10" y="704" class="ascii-line" style="animation-delay: 1.71s;">%@**%#*#%#%%%%%%%%#%%%%#@@@@%%%@%@@%%%%%@@@@@@@@%@%@%@%%%@@@%**%@@@@@@%#*-.@@@@@@@%%@%#@@@%%%@@@@**.:@@@%@@%@@@%@%</text>
+<text x="10" y="736" class="status">>> System Update: 2026-07-31 01:21 | Latest Launch: KippQuiz</text>
+</svg>
