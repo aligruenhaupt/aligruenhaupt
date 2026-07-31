@@ -1,36 +1,34 @@
-name: Generate Profile SVG
+name: Update Profile
 
 on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Erlaubt den manuellen Start über die GitHub-Website
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-# HIER IST DER FIX FÜR FEHLER 128:
-# Gibt dem Bot die explizite Erlaubnis, neue Dateien in dein Repo zu pushen
-permissions:
-  contents: write
+    - cron: '0 0 * * *' # Führt das Skript jeden Tag um Mitternacht UTC aus
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Repository auschecken
-        uses: actions/checkout@v5 # Update auf v5 löst die Node.js Warnung
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      - name: Python installieren
-        uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Python Skript ausführen
-        run: python scripts/generate_svg.py
+      - name: Run Python Script für SVG-Header
+        run: python generate_headers.py
 
-      - name: Generierte SVG committen und pushen
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile_art.svg
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.svg
           
-          # Nur pushen, wenn es wirklich Änderungen gab
-          git commit -m "chore: update profile SVG art" || exit 0
-          git push
+          # Prüft, ob sich die SVGs verändert haben. Wenn ja -> Commit & Push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-generate SVGs" && git push)
