@@ -2,15 +2,20 @@ name: Generate Profile SVG
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Läuft täglich um 00:00 Uhr UTC
-  workflow_dispatch:    # Erlaubt dir, die Action jederzeit manuell zu starten
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+# HIER IST DER FIX FÜR FEHLER 128:
+# Gibt dem Bot die explizite Erlaubnis, neue Dateien in dein Repo zu pushen
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Repository auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5 # Update auf v5 löst die Node.js Warnung
 
       - name: Python installieren
         uses: actions/setup-python@v5
@@ -25,5 +30,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile_art.svg
+          
+          # Nur pushen, wenn es wirklich Änderungen gab
           git commit -m "chore: update profile SVG art" || exit 0
           git push
