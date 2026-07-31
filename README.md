@@ -2,9 +2,9 @@
   <img src="profile_art.svg" alt="Animated ASCII Profile" width="100%">
 </div><div align="center">
 
-[x-akt.ai](https://x-akt.ai) &nbsp;·&nbsp;
+[x-akt](https://x-akt.com) &nbsp;·&nbsp;
 [linkedin](https://www.linkedin.com/in/muhammet-yesilbas-a9401b31a/) &nbsp;·&nbsp;
-[email](mailto:deine.email@hs-niederrhein.de)
+[email](mailto:ali@x-akt.com)
 
 </div>
 
