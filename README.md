@@ -2,10 +2,6 @@
   <img src="profile_art.svg" alt="Animated ASCII Profile" width="100%">
 </div><div align="center">
 
-<img src="./ascii.svg" width="460" alt="Muhammet Ali Yesilbas"/>
-
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
-
 [x-akt.ai](https://x-akt.ai) &nbsp;·&nbsp;
 [linkedin](https://www.linkedin.com/in/muhammet-yesilbas-a9401b31a/) &nbsp;·&nbsp;
 [email](mailto:deine.email@hs-niederrhein.de)
